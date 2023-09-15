@@ -1,0 +1,20 @@
+.membership-details-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  min-width: 359px;
+  padding: 22px 31px 27px 24px;
+  background: #222338;
+  border-radius: 12.5px;
+}
+.membership-details-label {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  padding-right: 6px;
+  padding-left: 6px;
+  margin-top: 26px;
+  font: 600 12px Plus Jakarta Sans;
+  color: white;
+}
