@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         NAV_SELECTED:
-          "linear-gradient(90deg, rgba(21, 191, 253, 0.10) 0%, rgba(0, 255, 194, 0.30) 117.12%)",
+          "linear-gradient(90deg, rgba(104, 92, 255, 0.40) 0%, #8D6AFF 117.12%);",
       },
     },
   },
