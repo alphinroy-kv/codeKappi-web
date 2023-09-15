@@ -1,0 +1,33 @@
+.exercise-card {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.leg-raise-container {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  padding: 12px 13px 10.5px;
+  background: #1d1e2e;
+  border: 1px solid #777882;
+  border-radius: 12.5px;
+}
+.leg-raise-title {
+  box-sizing: border-box;
+  font: 600 14px Inter;
+  color: white;
+}
+.leg-raise-text {
+  font: 400 14px Inter;
+}
+.leg-raise-description {
+  font-size: 14px;
+}
+.leg-raise-info {
+  box-sizing: border-box;
+  margin-top: 5px;
+  font: 400 10px Inter;
+  color: #777882;
+}

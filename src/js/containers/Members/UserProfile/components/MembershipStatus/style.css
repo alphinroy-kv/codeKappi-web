@@ -1,0 +1,81 @@
+.plan-card {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  height: 111px;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-top: 6px;
+  background: #1d1e2e;
+  border: 1px solid #777882;
+  border-radius: 12px;
+}
+.code-info-label-code-membership-status {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.code-info-label {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  width: 41.07%;
+  font: 600 12px Plus Jakarta Sans;
+  color: #beb9ba;
+}
+.membership-status-label {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  width: 58.93%;
+  padding-right: 15px;
+  padding-left: 15px;
+  font: 400 12px Plus Jakarta Sans;
+  color: white;
+}
+.reminder-section {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 9px;
+  margin-right: -4px;
+}
+.reminder-container {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.remaining-text {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  font: 600 12px Plus Jakarta Sans;
+  color: #beb9ba;
+}
+.remaining-days {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  margin-left: 71px;
+  font: 400 12px Plus Jakarta Sans;
+  color: white;
+}
+.reminder-button {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  padding-right: 6.5px;
+  padding-left: 6.5px;
+  font: 600 10px Inter;
+  color: white;
+  background: rgba(13, 13, 13, 0.22);
+  border-radius: 7px;
+}

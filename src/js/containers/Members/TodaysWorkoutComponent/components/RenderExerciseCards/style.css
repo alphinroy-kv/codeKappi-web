@@ -1,0 +1,7 @@
+.exercise-count-container3 {
+  box-sizing: border-box;
+  margin-top: 2.5px;
+}
+.exercise-count-container:first-child {
+  margin-top: 0px;
+}

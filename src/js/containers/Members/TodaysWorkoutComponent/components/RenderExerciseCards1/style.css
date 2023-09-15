@@ -1,0 +1,10 @@
+.exercise-list {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: 13px;
+}
