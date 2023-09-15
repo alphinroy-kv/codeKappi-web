@@ -22,7 +22,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="fixed h-full w-[200px] z-50 bg-[#222338] text-white flex flex-col pt-40">
+    <div className="fixed h-full w-[200px] z-50 bg-[#222338] text-white flex flex-col pt-40 font-[poppins]">
       {NavArray.map((nav) => (
         <NavBarButton path={nav.path} title={nav.title} />
       ))}

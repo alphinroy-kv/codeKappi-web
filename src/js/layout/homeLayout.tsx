@@ -8,9 +8,11 @@ const HomeLayout = () => (
   <div className="h-screen w-screen bg-[#1B1C31]">
     <BrowserRouter>
       <NavBar />
-      <Routes>
-        <Route path="/analytics" Component={Analytics} />
-      </Routes>
+      <div className="ml-[200px] font-[poppins]">
+        <Routes>
+          <Route path="/analytics" Component={Analytics} />
+        </Routes>
+      </div>
     </BrowserRouter>
   </div>
 );
