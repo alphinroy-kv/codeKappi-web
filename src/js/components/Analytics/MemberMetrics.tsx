@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import { Line } from "react-chartjs-2";
 import {
@@ -11,15 +11,8 @@ import {
 
 ChartJs.register(CategoryScale, LinearScale, PointElement, LineController);
 
-interface MemberMetricsProps {
-  selectedRange: string;
-  setSelectedRange: React.Dispatch<React.SetStateAction<string>>;
-}
-
-const MemberMetrics: React.FC<MemberMetricsProps> = ({
-  selectedRange,
-  setSelectedRange,
-}) => {
+const MemberMetrics: React.FC = () => {
+  const [selectedRange, setSelectedRange] = useState("WEEKLY");
   const getLabels = () => {
     if (selectedRange === "WEEKLY")
       return ["3 Sep", "4 Sep", "5 Sep", "6 Sep", "7 Sep", "8 Sep", "9 Sep"];
@@ -81,7 +74,7 @@ const MemberMetrics: React.FC<MemberMetricsProps> = ({
   };
 
   return (
-    <div className="w-2/5 bg-[#222338] rounded-xl p-[30px]">
+    <div className="w-[47%] bg-[#222338] rounded-xl p-[30px]">
       <div className="flex justify-between font-[Inter] text-white items-center">
         <div className="font-bold text-xl">Member Metrics:</div>
         <div className="w-2/5 rounded-[10px] px-2.5 py-2 border border-[#15BFFD] flex justify-center font-medium text-xs">

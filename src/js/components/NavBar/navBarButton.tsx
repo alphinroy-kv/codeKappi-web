@@ -14,7 +14,7 @@ const NavBarButton: React.FC<NavBarButtonProps> = ({ path, title }) => {
   return (
     <button
       className={`h-16 ${
-        isSelected ? "bg-NAV_SELECTED text-[#15BFFD] font-bold" : ""
+        isSelected ? "bg-NAV_SELECTED font-bold" : ""
       }`}
       onClick={() => {
         navigate(path);

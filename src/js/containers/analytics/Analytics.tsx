@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import "chart.js/auto";
 import MemberMetrics from "../../components/Analytics/MemberMetrics";
+import EquipmentMetrics from "../../components/Analytics/EquipmentMetrics";
 
 const Analytics = () => {
-  const [selectedRange, setSelectedRange] = useState("WEEKLY");
-
   return (
     <div className="pl-8 pt-12 pr-[72px]">
       <div className="flex justify-between">
@@ -19,11 +18,12 @@ const Analytics = () => {
         </div>
       </div>
       <div className="flex justify-between pt-11">
-        <MemberMetrics
-          selectedRange={selectedRange}
-          setSelectedRange={setSelectedRange}
-        />
-        <div className="w-2/5 bg-[#222338] rounded-xl">kjhvv</div>
+        <MemberMetrics />
+        <EquipmentMetrics />
+      </div>
+      <div className="flex justify-between pt-11">
+        <MemberMetrics />
+        <EquipmentMetrics />
       </div>
     </div>
   );
